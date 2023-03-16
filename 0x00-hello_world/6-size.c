@@ -1,20 +1,20 @@
 #include<stdio.h>
 /**
-*main - prints size of types of variable
+*main - prints size of variables
 *Return: return if 0
 */
 int main(void)
 {
-	char charType;
-	int interType;
-	long int interType;
-	long long int interType;
-	float floatType;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
-	printf("Size of char: %1u byte(s)\n", (unsigned long)sizeof(charType));
-	printf("Size of an int: %1u byte(s)\n", (unsigned long)sizeof(interType));
-	printf("Size of long int: %1u byte(s)\n", (unsigned long)sizeof(interType));
-	printf("Size of long long int: %1u byte(s)\n", (unsigned long)sizeof(interType));
-	printf("Size of float: %1u byte(s)\n", (unsigned long)sizeof(floatType));
+	printf("Size of char: %zu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %zu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of long int: %zu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
