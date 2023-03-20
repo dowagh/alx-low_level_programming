@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
-*main -
-*Return: return 0 f successful
+*main - Prints the alphabet in lowercase.
+*Return: return 0 if successful
 */
 
 int main(void)
 {
-	char lowerCase = 97;
+	char lowerCase;
 
-	while (lowerCase <= 122)
-	{
-	putchar(lowerCase);
-	lowerCase += 1;
-	}
+	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
+		putchar(lowerCase);
+
 	putchar('\n');
+
 	return (0);
 }
