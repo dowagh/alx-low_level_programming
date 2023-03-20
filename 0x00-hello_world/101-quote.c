@@ -1,8 +1,8 @@
 #include <unistd.h>
 
 /**
-* main - Prints "and that piece of art is useful" - Dora Korpa
-* Return: return 0 if successful.
+*main - Prints "and that piece of art is useful" - Dora Korpa
+*Return: return 1 if
 */
 int main(void)
 
@@ -11,5 +11,5 @@ int main(void)
 	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
 	      59);
 
-	return (0);
+	return (1);
 }
